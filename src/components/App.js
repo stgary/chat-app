@@ -6,8 +6,14 @@ import Chat from './Chat/Chat';
 export default function App() {
   return (
     <div>
-      <Route exact path='/' component={Join} />
-      <Route path='/chat' component={Chat} />
+      <Route 
+        exact path='/' 
+        component={Join} 
+      />
+      <Route 
+        path='/chat' 
+        component={Chat} 
+      />
     </div>
   );
 }
