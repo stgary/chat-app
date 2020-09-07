@@ -4,11 +4,13 @@
   }
   
   .input {
-    border: none;
+    border: 1px solid #a9a5a5;
     border-radius: 0;
-    padding: 5%;
+    padding: 2%;
     width: 80%;
-    font-size: 1.2em;
+    font-size: 1em;
+    background-color: #d2d2d2;
+    font-family: 'Merriweather', serif;
   }
   
   input:focus, textarea:focus, select:focus{
@@ -17,11 +19,12 @@
   
   .sendButton {
     color: #fff !important;
+    font-family: 'Merriweather', serif;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: #693b3b;
     padding: 20px;
     display: inline-block;
-    border: none;
     width: 20%;
+    border: none;
   }

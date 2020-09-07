@@ -1,4 +1,6 @@
   
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
 .messageBox {
     background: #F3F3F3;
     border-radius: 20px;
@@ -12,7 +14,8 @@
     width: 100%;
     letter-spacing: 0;
     float: left;
-    font-size: 1.1em;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
     word-wrap: break-word;
   }
   
@@ -30,7 +33,7 @@
   .sentText {
     display: flex;
     align-items: center;
-    font-family: Helvetica;
+    font-family: 'Merriweather', serif;
     color: #828282;
     letter-spacing: 0.3px;
   }
@@ -56,13 +59,13 @@
   }
   
   .colorDark {
-    color: #353535;
+    color: #ffffff;
   }
   
   .backgroundBlue {
-    background: #2979FF;
+    background: #9c7e7e;
   }
   
   .backgroundLight {
-    background: #F3F3F3;
+    background: #7e8d9c;
   }
