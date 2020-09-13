@@ -16,7 +16,7 @@ export default function Chat({ location }) {
   const [room, setRoom] = useState('');
   const [name, setName] = useState('');
 
-  const ENDPOINT = 'localhost:5000';
+  const ENDPOINT = 'https://rtctapp.herokuapp.com/';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
